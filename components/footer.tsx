@@ -292,7 +292,7 @@ const Footer = () => {
             迅鸟ERP 版权所有
         </span>
         <span className="text-muted-foreground text-center xs:text-start">
-            地址：河南省郑州市高新技术产业开发区瑞达路96号创业中心2号楼A1219
+            地址：河南省郑州市高新技术产业开发区瑞达路96号创业中心2号楼A1020
         </span>
         <div className="flex items-center gap-5 text-muted-foreground">
           {/* <Link href="#" target="_blank">
