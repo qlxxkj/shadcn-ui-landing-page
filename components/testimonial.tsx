@@ -15,64 +15,55 @@ import { useEffect, useState } from "react";
 const testimonials = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
+    name: "​跨境电商卖家A​​",
+    designation: "CEO",
     company: "TechCorp",
     testimonial:
-      "This product has completely transformed the way we work. The efficiency and ease of use are unmatched! " +
-      "We were struggling with productivity before, but this tool has streamlined our entire process. ",
+      "AI选品功能让我们新品开发周期缩短了50%，爆款率提升30%，库存周转率从60天降到35天，真正实现了‘零滞销’！ ",
     avatar: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     id: 2,
-    name: "Jane Smith",
-    designation: "Product Manager",
+    name: "服装批发商B",
+    designation: "运营总监",
     company: "InnovateX",
     testimonial:
-      "An amazing tool that simplifies complex tasks. Highly recommended for professionals in the industry. " +
-      "The intuitive interface makes it easy to onboard new team members, and the automation features save us countless hours every week. ",
+      "中央库存池和1688一键下单太省心了！以前手动对账常出错，现在系统自动同步数据，采购效率翻倍，人力成本节省40% ",
     avatar: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
     id: 3,
-    name: "Michael Johnson",
-    designation: "UX Designer",
+    name: "电子产品零售商C",
+    designation: "运营总监",
     company: "DesignPro",
     testimonial:
-      "The user experience is top-notch! The interface is clean, intuitive, and easy to navigate. " +
-      "As a designer, I appreciate the attention to detail and well-thought-out UI components. " +
-      "It makes designing and prototyping so much more efficient.",
-    avatar: "https://randomuser.me/api/portraits/men/3.jpg",
+      "广告管理模块的转化率分析功能很实用，投后ROI提升了25%。自动规则还能根据广告表现实时调整预算，真正做到了智能化投放",
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "Marketing Specialist",
+    name: "家居品牌D​",
+    designation: "财务总监",
     company: "BrandBoost",
     testimonial:
-      "I've seen a significant improvement in our team's productivity since we started using this service. " +
-      "The ability to track performance, analyze data, and collaborate across teams has been a game-changer.",
+      "财务模块的每日利润统计和回款跟踪功能，让我们对每个订单的盈亏一目了然，资金周转率提高20%，财务对账时间减少70%.",
     avatar: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     id: 5,
-    name: "Daniel Martinez",
-    designation: "Full-Stack Developer",
+    name: "美妆跨境企业E​​",
+    designation: "客服主管",
     company: "CodeCrafters",
     testimonial:
-      "The best investment we've made! The support team is also super responsive and helpful. " +
-      "As a developer, I appreciate the well-documented API, the flexibility of integrations, and the robust security features.",
+      "智能客服的云黑名单功能拦截了90%的恶意询盘，自动回复模板覆盖80%常见问题，客服团队从10人精简到4人，效率反而更高。.",
     avatar: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     id: 6,
-    name: "Sophia Lee",
-    designation: "Data Analyst",
+    name: "​3C配件厂商F​​",
+    designation: "运营总监",
     company: "InsightTech",
     testimonial:
-      "This tool has saved me hours of work! The analytics and reporting features are incredibly powerful. " +
-      "I can now generate detailed reports in minutes, which previously took days to compile. " +
-      "helping us make smarter, data-backed decisions.",
+      "风控预警模型多次提前发现Listing违规风险，避免了账户被封的损失。数据权限分级也让跨部门协作更安全高效。",
     avatar: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -100,7 +91,7 @@ const Testimonial = () => {
       className="w-full max-w-screen-xl mx-auto py-6 xs:py-12 px-6"
     >
       <h2 className="mb-8 xs:mb-14 text-4xl md:text-5xl font-bold text-center tracking-tight">
-        Testimonials
+        客户评价
       </h2>
       <div className="container w-full mx-auto">
         <Carousel setApi={setApi}>

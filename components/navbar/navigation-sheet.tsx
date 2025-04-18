@@ -27,9 +27,9 @@ export const NavigationSheet = () => {
 
         <div className="mt-8 space-y-4">
           <Button variant="outline" className="w-full sm:hidden">
-            Sign In
+            登录
           </Button>
-          <Button className="w-full xs:hidden">Get Started</Button>
+          <Button className="w-full xs:hidden">开始试用</Button>
         </div>
       </SheetContent>
     </Sheet>

@@ -6,48 +6,44 @@ import { CircleCheck } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    price: 19,
+    name: "基础版（适合中小卖家）",
+    price: 599,
     description:
-      "Get 20 AI-generated portraits with 2 unique styles and filters.",
+      "支持​​：5个店铺绑定、10万条/月数据存储、工作日在线客服",
     features: [
-      "5 hours turnaround time",
-      "20 AI portraits",
-      "Choice of 2 styles",
-      "Choice of 2 filters",
-      "2 retouch credits",
+      "进销存一体管理",
+      "订单自动化处理",
+      "基础财务统计",
     ],
-    buttonText: "Get 20 portraits in 5 hours",
+    buttonText: "开始订阅",
   },
   {
-    name: "Advanced",
-    price: 29,
+    name: "专业版（适合中大型企业）",
+    price: 1999,
     isRecommended: true,
     description:
-      "Get 50 AI-generated portraits with 5 unique styles and filters.",
+      "支持​​：50个店铺绑定、50万条/月数据存储、24小时优先客服",
     features: [
-      "3 hours turnaround time",
-      "50 AI portraits",
-      "Choice of 5 styles",
-      "Choice of 5 filters",
-      "5 retouch credits",
+      "基础版所有功能",
+      "AI选品与Listing生成",
+      "全流程广告管理",
+      "高级风控模型",
     ],
-    buttonText: "Get 50 portraits in 3 hours",
+    buttonText: "开始订阅",
     isPopular: true,
   },
   {
-    name: "Premium",
-    price: 49,
+    name: "旗舰版（适合集团及连锁品牌）",
+    price: 20000,
     description:
-      "Get 100 AI-generated portraits with 10 unique styles and filters.",
+      "支持：无限店铺绑定、千万级数据存储、满足其他专属定制需求",
     features: [
-      "1-hour turnaround time",
-      "100 AI portraits",
-      "Choice of 10 styles",
-      "Choice of 10 filters",
-      "10 retouch credits",
+      "专业版所有功能",
+      "私有化部署+定制化功能开发",
+      "专属客户成功经理+定期数据复盘",
+      "SLA 99.9%可用性保障",
     ],
-    buttonText: "Get 100 portraits in 1 hour",
+    buttonText: "开始订阅",
   },
 ];
 
@@ -55,7 +51,7 @@ const Pricing = () => {
   return (
     <div id="pricing" className="max-w-screen-lg mx-auto py-12 xs:py-20 px-6">
       <h1 className="text-4xl xs:text-5xl font-bold text-center tracking-tight">
-        Pricing
+        套餐价格
       </h1>
       <div className="mt-8 xs:mt-14 grid grid-cols-1 lg:grid-cols-3 items-center gap-8 lg:gap-0">
         {plans.map((plan) => (
@@ -71,11 +67,11 @@ const Pricing = () => {
           >
             {plan.isPopular && (
               <Badge className="absolute top-0 right-1/2 translate-x-1/2 -translate-y-1/2">
-                Most Popular
+                最受欢迎
               </Badge>
             )}
             <h3 className="text-lg font-medium">{plan.name}</h3>
-            <p className="mt-2 text-4xl font-bold">${plan.price}</p>
+            <p className="mt-2 text-4xl font-bold">¥{plan.price}/年</p>
             <p className="mt-4 font-medium text-muted-foreground">
               {plan.description}
             </p>
