@@ -9,35 +9,35 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Beautiful Shadcn UI Landing Page",
+  title: "迅鸟ERP - 跨境电商管理系统",
   description:
-    "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+    "迅鸟ERP,跨境电商管理系统,多平台多店铺智能管家，库存、订单、物流一屏掌控.",
   keywords: [
-    "Shadcn UI Landing Page",
-    "Shadcn UI Blocks",
-    "Shadcn UI",
-    "Landing Page",
-    "Tailwind CSS Landing Page",
-    "Beautiful Shadcn UI Landing Page",
-    "Next.js 15 Landing Page",
-    "Simple Landing Page",
-    "Landing Page Template",
-    "Landing Page Design",
+    "跨境电商",
+    "跨境电商ERP",
+    "亚马逊",
+    "亚马逊跨境电商",
+    "亚马逊卖家",
+    "亚马逊多店铺",
+    "跨境电商多店铺",
+    "亚马逊多店铺防关联",
+    // "Landing Page Template",
+    // "Landing Page Design",
   ],
   openGraph: {
     type: "website",
-    siteName: "Shadcn Landing Page",
+    siteName: "xunniao",
     locale: "en_US",
     url: "https://shadcn-landing-page.vercel.app",
-    title: "Shadcn Landing Page",
+    title: "xuniao erp",
     description:
-      "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+      "迅鸟ERP,跨境电商管理系统,多平台多店铺智能管家，库存、订单、物流一屏掌控.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Shadcn UI Landing Page Preview",
+        alt: "xuniao Page Preview",
       },
     ],
   },

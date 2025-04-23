@@ -6,21 +6,23 @@ import { Separator } from "@/components/ui/separator";
 //   TwitterIcon,
 // } from "lucide-react";
 import Link from "next/link";
+import Protocol from "@/app/protocol/page";
+import Privacy from "@/app/privacy/page";
 
 const footerSections = [
   {
-    title: "Product",
+    title: "产品",
     links: [
       {
-        title: "Overview",
+        title: "概况",
         href: "#",
       },
       {
-        title: "Features",
+        title: "功能",
         href: "#",
       },
       {
-        title: "Solutions",
+        title: "方案",
         href: "#",
       },
     //   {
@@ -28,26 +30,26 @@ const footerSections = [
     //     href: "#",
     //   },
       {
-        title: "Pricing",
+        title: "价格",
         href: "#",
       },
-      {
-        title: "Releases",
-        href: "#",
-      },
+    //   {
+    //     title: "Releases",
+    //     href: "#",
+    //   },
     ],
   },
   {
-    title: "Company",
+    title: "公司",
     links: [
       {
-        title: "About us",
+        title: "关于我们",
         href: "#",
       },
-      {
-        title: "Careers",
-        href: "#",
-      },
+    //   {
+    //     title: "Careers",
+    //     href: "#",
+    //   },
     //   {
     //     title: "Press",
     //     href: "#",
@@ -67,14 +69,14 @@ const footerSections = [
     ],
   },
   {
-    title: "Resources",
+    title: "资源",
     links: [
     //   {
     //     title: "Blog",
     //     href: "#",
     //   },
       {
-        title: "Newsletter",
+        title: "新闻",
         href: "#",
       },
     //   {
@@ -96,18 +98,18 @@ const footerSections = [
     ],
   },
   {
-    title: "Social",
+    title: "媒体",
     links: [
       {
-        title: "Twitter",
+        title: "公众号",
         href: "#",
       },
       {
-        title: "LinkedIn",
+        title: "微信",
         href: "#",
       },
       {
-        title: "Facebook",
+        title: "微博",
         href: "#",
       },
     //   {
@@ -125,19 +127,19 @@ const footerSections = [
     ],
   },
   {
-    title: "Legal",
+    title: "法规",
     links: [
     //   {
     //     title: "Terms",
     //     href: "#",
     //   },
       {
-        title: "Privacy",
-        href: "#",
+        title: "隐私政策",
+        href: "/privacy",
       },
       {
-        title: "Cookies",
-        href: "#",
+        title: "服务条款",
+          href: "/protocol",
       },
     //   {
     //     title: "Licenses",
@@ -258,7 +260,7 @@ const Footer = () => {
                 </g>
             </svg>
           <p className="mt-4 text-muted-foreground">
-           Email: Info@xunniao.com
+           Email: info@xunniao.com
           </p>
         </div>
 
