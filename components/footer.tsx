@@ -6,8 +6,7 @@ import { Separator } from "@/components/ui/separator";
 //   TwitterIcon,
 // } from "lucide-react";
 import Link from "next/link";
-import Protocol from "@/app/protocol/page";
-import Privacy from "@/app/privacy/page";
+
 
 const footerSections = [
   {

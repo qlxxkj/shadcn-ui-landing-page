@@ -50,10 +50,10 @@ const Privacy = () => {
     return (
         <div className="min-h-[calc(100vh-4rem)] w-full flex items-center justify-center overflow-hidden border-b border-accent">
             <div className="max-w-screen-xl w-full mx-auto items-center justify-between gap-y-14 gap-x-10 px-6 py-12 lg:py-0">
-                <h1 className="">迅鸟ERP数据保护政策</h1>
+                <h1>迅鸟ERP数据保护政策</h1>
                 {content.map(({ title, describe }) => (
                     <div>
-                        <h3 className="">{title}</h3>
+                        <h3>{title}</h3>
                         <p>{describe}</p>
                     </div>
                 ))}
