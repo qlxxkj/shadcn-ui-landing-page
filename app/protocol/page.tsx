@@ -1,6 +1,6 @@
 
 
-const content = [
+const protocolContent = [
     {
         title: "引言",
         describe: "欢迎使用河南迅鸟智能科技有限公司（以下简称“迅鸟” 或 “我们”）开发并运营的迅鸟ERP软件及相关服务（以下简称“本软件”或“本服务”）。本条款与条件（以下简称“本协议”）适用于您（包括您代表的公司或其他实体，以下合称“您”）使用本软件及服务的全过程。请您在注册或继续使用前，仔细阅读并充分理解本协议各项条款，特别是涉及免责声明、责任限制以及终止条款。点击“阅读并同意”即视为您已阅读并同意本协议所有内容。"
@@ -63,7 +63,7 @@ const Protocol = () =>{
     <div className="min-h-[calc(100vh-4rem)] w-full flex items-center justify-center overflow-hidden border-b border-accent">
         <div className="max-w-screen-xl w-full mx-auto items-center justify-between gap-y-14 gap-x-10 px-6 py-12 lg:py-0">
             <h1>迅鸟ERP使用条款与条件</h1>
-            {content.map(({title,describe}) =>(
+            {protocolContent.map(({title,describe}) =>(
                 <div>
                     <h3>{title}</h3>
                     <p>{describe}</p>

@@ -1,6 +1,6 @@
 
 
-const content = [
+const privacyContent = [
     {
         title: "一、引言",
         describe: "欢迎使用迅鸟ERP。我们重视您的隐私权，并致力于保护您的个人数据。本数据保护政策旨在说明我们如何收集、使用、披露和保护您在使用迅鸟ERP服务时所提供的信息。"
@@ -51,7 +51,7 @@ const Privacy = () => {
         <div className="min-h-[calc(100vh-4rem)] w-full flex items-center justify-center overflow-hidden border-b border-accent">
             <div className="max-w-screen-xl w-full mx-auto items-center justify-between gap-y-14 gap-x-10 px-6 py-12 lg:py-0">
                 <h1>迅鸟ERP数据保护政策</h1>
-                {content.map(({ title, describe }) => (
+                {privacyContent.map(({ title, describe }) => (
                     <div>
                         <h3>{title}</h3>
                         <p>{describe}</p>
