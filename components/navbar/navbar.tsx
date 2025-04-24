@@ -15,8 +15,8 @@ const Navbar = () => {
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-3">
-          {/* <ThemeToggle />
-          <Button variant="outline" className="hidden sm:inline-flex">
+          <ThemeToggle />
+          {/* <Button variant="outline" className="hidden sm:inline-flex">
             登录
           </Button> */}
           <Button className="hidden xs:inline-flex">开始试用</Button>
