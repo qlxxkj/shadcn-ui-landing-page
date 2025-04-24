@@ -52,7 +52,7 @@ const Privacy = () => {
             <div className="max-w-screen-xl w-full mx-auto items-center justify-between gap-y-14 gap-x-10 px-6 py-12 lg:py-0">
                 <h1>迅鸟ERP数据保护政策</h1>
                 {privacyContent.map(({ title, describe }) => (
-                    <div>
+                    <div key={title}>
                         <h3>{title}</h3>
                         <p>{describe}</p>
                     </div>

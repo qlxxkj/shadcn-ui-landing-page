@@ -64,7 +64,7 @@ const Protocol = () =>{
         <div className="max-w-screen-xl w-full mx-auto items-center justify-between gap-y-14 gap-x-10 px-6 py-12 lg:py-0">
             <h1>迅鸟ERP使用条款与条件</h1>
             {protocolContent.map(({title,describe}) =>(
-                <div>
+                <div key={title}>
                     <h3>{title}</h3>
                     <p>{describe}</p>
                 </div>
