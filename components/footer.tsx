@@ -18,113 +18,113 @@ const footerSections = [
       },
       {
         title: "功能",
-        href: "#",
+          href: "#features",
       },
-      {
-        title: "方案",
-        href: "#",
-      },
+    //   {
+    //     title: "方案",
+    //     href: "#",
+    //   },
+        {
+            title: "价格",
+            href: "#pricing",
+        },
     //   {
     //     title: "Tutorials",
     //     href: "#",
     //   },
-      {
-        title: "价格",
-        href: "#",
-      },
     //   {
     //     title: "Releases",
     //     href: "#",
     //   },
     ],
   },
-  {
-    title: "公司",
-    links: [
-      {
-        title: "关于我们",
-        href: "#",
-      },
-    //   {
-    //     title: "Careers",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "Press",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "News",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "Media kit",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "Contact",
-    //     href: "#",
-    //   },
-    ],
-  },
-  {
-    title: "资源",
-    links: [
-    //   {
-    //     title: "Blog",
-    //     href: "#",
-    //   },
-      {
-        title: "新闻",
-        href: "#",
-      },
-    //   {
-    //     title: "Events",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "Help centre",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "Tutorials",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "Support",
-    //     href: "#",
-    //   },
-    ],
-  },
-  {
-    title: "媒体",
-    links: [
-      {
-        title: "公众号",
-        href: "#",
-      },
-      {
-        title: "微信",
-        href: "#",
-      },
-      {
-        title: "微博",
-        href: "#",
-      },
-    //   {
-    //     title: "GitHub",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "AngelList",
-    //     href: "#",
-    //   },
-    //   {
-    //     title: "Dribbble",
-    //     href: "#",
-    //   },
-    ],
-  },
+//   {
+//     title: "公司",
+//     links: [
+//       {
+//         title: "关于我们",
+//         href: "#",
+//       },
+//       {
+//         title: "Careers",
+//         href: "#",
+//       },
+//       {
+//         title: "Press",
+//         href: "#",
+//       },
+//       {
+//         title: "News",
+//         href: "#",
+//       },
+//       {
+//         title: "Media kit",
+//         href: "#",
+//       },
+//       {
+//         title: "Contact",
+//         href: "#",
+//       },
+//     ],
+//   },
+//   {
+//     title: "资源",
+//     links: [
+//       {
+//         title: "Blog",
+//         href: "#",
+//       },
+//       {
+//         title: "新闻",
+//         href: "#",
+//       },
+//       {
+//         title: "Events",
+//         href: "#",
+//       },
+//       {
+//         title: "Help centre",
+//         href: "#",
+//       },
+//       {
+//         title: "Tutorials",
+//         href: "#",
+//       },
+//       {
+//         title: "Support",
+//         href: "#",
+//       },
+//     ],
+//   },
+//   {
+//     title: "媒体",
+//     links: [
+//       {
+//         title: "公众号",
+//         href: "#",
+//       },
+//       {
+//         title: "微信",
+//         href: "#",
+//       },
+//       {
+//         title: "微博",
+//         href: "#",
+//       },
+//       {
+//         title: "GitHub",
+//         href: "#",
+//       },
+//       {
+//         title: "AngelList",
+//         href: "#",
+//       },
+//       {
+//         title: "Dribbble",
+//         href: "#",
+//       },
+//     ],
+//   },
   {
     title: "法规",
     links: [
@@ -180,7 +180,7 @@ const Footer = () => {
             />
           </svg> */}
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                width="124pt" height="32pt" viewBox="0 0 1600.000000 700.000000"
+                width="124pt" height="48pt" viewBox="0 0 1600.000000 700.000000"
                 preserveAspectRatio="xMidYMid meet">
 
                 <g transform="translate(0.000000,700.000000) scale(0.100000,-0.100000)"
@@ -258,9 +258,12 @@ const Footer = () => {
                     161 450 13 50 21 67 25 55 4 -10 46 -126 95 -258z"/>
                 </g>
             </svg>
-          <p className="mt-4 text-muted-foreground">
-           Email: info@xunniao.com
-          </p>
+            <p className="mt-4 text-muted-foreground">
+            邮箱
+            </p>
+            <p className="mt-4 text-white">
+            info@xunniao.com
+            </p>
         </div>
 
         {footerSections.map(({ title, links }) => (

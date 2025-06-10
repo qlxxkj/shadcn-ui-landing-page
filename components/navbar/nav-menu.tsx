@@ -25,11 +25,11 @@ export const NavMenu = (props: NavigationMenuProps) => (
           <Link href="#faq">FAQ</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
-      <NavigationMenuItem>
+      {/* <NavigationMenuItem>
         <NavigationMenuLink asChild>
           <Link href="#testimonials">评价</Link>
         </NavigationMenuLink>
-      </NavigationMenuItem>
+      </NavigationMenuItem> */}
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
           <Link href="#pricing">价格</Link>

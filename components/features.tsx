@@ -13,7 +13,7 @@ const features = [
     icon: Goal,
     title: "进销存一体管理",
     description:
-      "告别繁琐流程，输入关键词一键采集，AI选品，AI制作Listing，自动库存管理，1688一键下单",
+      "告别繁琐流程，输入关键词一键采集，AI选品，自动库存管理，1688一键下单",
   },
   {
     icon: BookCheck,
@@ -29,9 +29,9 @@ const features = [
   },
   {
     icon: Users,
-    title: "全流程广告管理",
+      title: "高效运营工具",
     description:
-      "投放前挖掘优质词，投中使用自动规则提效，投后溯源、对比分析广告转化率",
+      "能够根据关键词库，通过ChatGPT实时优化Listing，提高Listing制作效率",
   },
   {
     icon: FolderSync,
