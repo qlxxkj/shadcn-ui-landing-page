@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import { Navbar } from "@/components/navbar";
 import Pricing from "@/components/pricing";
-import Testimonial from "@/components/testimonial";
+// import Testimonial from "@/components/testimonial";
 
 export default function Home() {
   return (
