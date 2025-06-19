@@ -26,7 +26,7 @@ const plans = [
     features: [
       "基础版所有功能",
       "AI选品与Listing生成",
-      "全流程广告管理",
+      "广告管理",
       "高级风控模型",
     ],
     buttonText: "开始订阅",

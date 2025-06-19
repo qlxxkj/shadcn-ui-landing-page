@@ -15,7 +15,7 @@ const Hero = () => {
             跨境智链，一迅千里
           </h1>
           <p className="mt-6 max-w-[60ch] xs:text-lg">
-            多平台多店铺智能管家，库存、订单、物流一屏掌控.
+            为Amazon卖家提供合规的ERP系统与数据服务，支持SP-API标准集成，助力卖家实现全链路自动化运营.
           </p>
           <div className="mt-12 flex flex-col sm:flex-row items-center gap-4">
             <Button

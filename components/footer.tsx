@@ -128,10 +128,10 @@ const footerSections = [
   {
     title: "法规",
     links: [
-    //   {
-    //     title: "Terms",
-    //     href: "#",
-    //   },
+      {
+        title: "SP-API集成",
+        href: "/spapi-integration",
+      },
       {
         title: "隐私政策",
         href: "/privacy",
