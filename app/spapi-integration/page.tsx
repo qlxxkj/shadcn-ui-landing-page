@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+// import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Lock, Server } from "lucide-react";
 import Image from "next/image";
 
